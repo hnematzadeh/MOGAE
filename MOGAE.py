@@ -292,7 +292,7 @@ def deep_copy_struct(initial_struct):
         im=copy.deepcopy(initial_struct.im)
     )
 
-#############  HEURISTIC SEARCH
+#############  SYSTEMATIC SEARCH
 from ypstruct import struct
 
 WIN=[]

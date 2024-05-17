@@ -31,6 +31,7 @@ __ATTENTION 2:__ The delineated images by SLIC algorithm are image5_delineated.n
 
 __ATTENTION 3:__ You can also calculate the maximum error of explanation for each image using worst5.npy(Black spot), worst29.npy(Canker), worst46.npy(Greening), and worst55.npy(Healthy). You can use them in lines 759-771 for respective calculations. by initializing the intended _worst_ variable in line 760.
 
+__ATTENTION 4:__ To illustrate accuracy deviation (𝜃) between the best solution in the Pareto front and the original image across consecutive iterations in NSGA-II with H=100 (Figure 10 in the paper) you can upload the corresponding files inaccuracy deviation folder
 <!-- Step 2) You can run lines 320-362 for LIME, Grad-CAM, and SHAP explanation
 
 Additionally, Lines 396-403 calculate the confusion matrix, precision, recall, and f1_score. Lines 281-296 illustrate the model loss and model accuracy only if you followed the first option in step 1. Lines 302-314 generate the X1_train, y1_train, X1_test, y1_test only if you followed the first option in step 1. Lines 368-393 depict the execution time of explanation methods.
